@@ -1,6 +1,6 @@
 const amqp = require('amqplib');
 
-const rabbitmqURL = 'amqps://qsqgdfrj:3E7OUdwFRktAmV6LrMnxVgwUbYwLuocN@prawn.rmq.cloudamqp.com/qsqgdfrj';
+const rabbitmqURL = 'Introduce aqui tu url';
 const exchangeName = 'notificaciones_exchange';
 const queueName = 'queue_notificaciones';
 

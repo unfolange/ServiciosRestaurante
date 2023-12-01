@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use(bodyParser.json());
 
 // Configuración de RabbitMQ
-const rabbitmqURL = 'amqps://qsqgdfrj:3E7OUdwFRktAmV6LrMnxVgwUbYwLuocN@prawn.rmq.cloudamqp.com/qsqgdfrj';
+const rabbitmqURL = 'Introduce aqui tu url';
 const exchangeName = 'pedidos_exchange';
 
 function generarIdPedido() {

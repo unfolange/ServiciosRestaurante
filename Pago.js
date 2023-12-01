@@ -1,7 +1,7 @@
 const amqp = require('amqplib');
 
 async function iniciarServicioDePagos() {
-  const connection = await amqp.connect('amqps://qsqgdfrj:3E7OUdwFRktAmV6LrMnxVgwUbYwLuocN@prawn.rmq.cloudamqp.com/qsqgdfrj');
+  const connection = await amqp.connect('Introduce aqui tu url');
   const channel = await connection.createChannel();
 
   // Define el exchange y las colas necesarias
